@@ -10,12 +10,12 @@
         <h1>My Dolars</h1>
 
         <div>
-            <input type="number" placeholder="Valor em Reais">
-            <input placeholder="Valor em Dolar">
+            <input id="input-real" type="number" placeholder="Valor em Reais">
+            <input id="input-dolar" placeholder="Valor em Dolar">
 
-            <p>$ 0</p>
+            <p id="dolares">$</p>
 
-            <button>Converter</button>
+            <button onclick="calcular()">Converter</button>
         </div>
     </body>
 
@@ -38,5 +38,53 @@
             width: 140px;
             height: 30px;
         }
+
+        #input-real{
+            border: 3px solid #cfff00;
+        }
+
+        #input-dolar{
+            border: 3px solid red;
+        }
+
+        p{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        button{
+            height: 40px;
+            width: 150px;
+            font-size: 20px;
+            cursor: pointer;
+            border: 3px solid #cfff00;
+            border-radius: 10px;
+            background-color: #323232;
+            color: white;
+        }
+
+        button:hover{
+            background-color: #cfff00;
+            color: #323232;
+        }
+
     </style>
+
+    <script>
+
+        function calcular(){
+            let real= document.getElementById("input-real").value
+            let dolar= document.getElementById("input-dolar").value
+
+            let resultado = real / dolar
+            dolares.innerHTML = '$ ' + resultado
+            alert('O resultado é $'+ resultado + ' dólares' )
+
+        }
+
+        
+
+
+
+    </script>
 </html>
