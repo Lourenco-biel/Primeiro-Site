@@ -1,12 +1,6 @@
-# dollar converter
 
-Este é o meu primeiro projeto HTML ultilizando CSS e Javascript.
 
-Esse projeto trata-se de um conversor de dolar, basta colocar a quantidade em reais que tem e o valor atual do dolar e clicar em CONVERTER e deixe todo o resto com nosso querido programa!
-
-Att,
-
-# dollar converter
+# Dollar converter
 
 <img src="./img/Pagina.JPG" alt="img-page">
 
@@ -55,4 +49,4 @@ Este é meu primeiro projeto trata-se de um conversor de dolar com bastantes cor
 
 
 
-[⬆ Voltar ao topo](#dollar-converter)<br>
+[⬆ Voltar ao topo](#Dollar-converter)<br>
